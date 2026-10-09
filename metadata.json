@@ -1,0 +1,6 @@
+{
+  "name": "GhostTouchShield Pro",
+  "description": "Neutralize phantom ghost touches with dynamic dead-zone profiles, floating bubble dock, and Quick Settings tile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Shield Outline -->
+    <path
+        android:fillColor="#151E3F"
+        android:strokeColor="#00F2FE"
+        android:strokeWidth="3.2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M54,22 L78,32 C78,56 68,74 54,84 C40,74 30,56 30,32 Z" />
+
+    <!-- Inner Shield Accent -->
+    <path
+        android:fillColor="#1D2A54"
+        android:strokeColor="#4FACFE"
+        android:strokeWidth="1.6"
+        android:pathData="M54,28 L72,36 C72,54 64,68 54,76 C44,68 36,54 36,36 Z" />
+
+    <!-- Crossed Touch Rings (Ghost Barrier) -->
+    <!-- Center Target Node -->
+    <path
+        android:fillColor="#FF3366"
+        android:strokeColor="#FF5E7E"
+        android:strokeWidth="1.5"
+        android:pathData="M54,46 A6,6 0 1,1 54,58 A6,6 0 1,1 54,46 Z" />
+
+    <!-- Diagonal Defense Zap -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F2FE"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M48,40 L60,40 M44,52 L64,52 M46,64 L62,64" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M54,34 L54,70" />
+</vector>
